@@ -1,0 +1,929 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@200;500;700&family=Open+Sans:wght@500&family=Smooch+Sans&family=Space+Mono:wght@700&display=swap');
+/*  
+
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Smooch Sans', sans-serif;
+font-family: 'Space Mono', monospace;
+
+orangered  */
+
+body {
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+   /* background-color: rgba(0, 0, 0, 0.1);*/
+   
+    height: auto;
+    font-family: 'Nunito', sans-serif;
+  
+  
+}
+
+button{
+  outline: none;
+}
+
+.A1_bay_2 {
+ background-color: #f5f5f5;
+  font-size: 8vw;
+  width: 12vw;
+  height: 12vw;
+  margin-top: 25px;
+  margin-left: 0px ;
+  margin-right: 0px ;
+  margin: 25px 2px;
+  text-align: center;
+  border-radius: 50vw;
+  box-shadow: -0px -0px 2px 0px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  color: orangered;
+}
+
+nev{
+  width: 101vw;
+  height: 11vh;
+  display: flex;
+  justify-content: space-around;
+  border: solid black;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+ font-family: 'Lato', sans-serif;
+ box-shadow: 0px 0px 5px 0px;
+ z-index:  61006;
+}
+
+
+.log{
+  display: flex;
+  margin-top: 6px;
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 30px;
+  
+}
+
+
+
+.log img{
+  display: flex;
+  width: 10vw;
+  height: 13vw;
+  border: 2px solid orangered;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  z-index: 70;
+  box-shadow: 2px 2px 15px 0px black;
+}
+
+.log h2{
+  background-color: orangered;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  height: 37px;
+  position: relative;
+  top: -9px ;
+  left: -1px;
+  z-index: 37;
+  padding-left: 6px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  box-shadow: 2px 2px 15px 0px black;
+}
+
+
+.menu {
+  border: 2px solid orangered;
+  box-shadow: 0px 1px 8px 0px black;
+ 
+
+}
+
+
+.menu i{
+  border-radius: 5px;
+  
+}
+
+.search{
+  
+}
+
+.dil{
+  
+}
+
+.soping{
+  font-weight: 9000px;
+}
+
+
+.men_box{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 12vh;
+  margin: 0px;
+  
+  
+}
+
+.men_tex{
+ 
+  margin: 10px 15px;
+  width: 370px;
+  
+}
+
+
+
+.men_tex h2{
+ color: orangered;
+ margin: 0px 0px;
+ padding-bottom: 0px;
+ 
+}
+
+.men_tex h1{
+  margin: 10px 0px;
+  color: rgba(81,81, 97);
+  
+}
+.men_tex h2{margin: 10px 0px;}
+.men_tex h4{margin: 10px 0px;}
+
+
+.men_img_s{
+  
+}
+
+.men_tex button{
+  margin: 20px;
+  padding: 8px 25px;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: solid white;
+  box-shadow: -0px -0px 2px 0px black;
+  color: rgba(81,81, 97);
+  
+}
+
+.men_tex button:hover{
+  background-color: orangered ;
+  color: white;
+  transition: 0.9s;
+}
+
+
+.food_img_box_slidar{
+  width: 300px;
+  height: 250px;
+/*  border: solid black;*/
+  display: flex;
+  overflow: auto;
+  
+}
+
+.food_img_box_slidar img{
+  width: 280px;
+  
+  margin: 10px;
+  
+}
+
+.food_img_box_slidar {
+  position: relative;
+  top:70px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 330px;
+  position: relative;
+  margin: 1px;
+  margin-top: 20px;
+  align-items: center;
+}
+.slideshow-container img{
+  width: 330px;
+  height: 300px;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  
+  top: 50%;
+  width: 10px;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: orangered/*#717171*/;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* menu*/
+
+.menu_flot{
+  width: 100vw;
+  height: auto;
+  background-color: white;
+  position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  border: solid;
+  padding: 20px 0px;
+  z-index: 3833;
+}
+
+
+
+
+
+
+.menu_flot li{
+  width: 70vw;
+  height: 30px;
+  background-color: rgba(0,0,0,0.3);
+  margin: 10px;
+  list-style: none;
+  padding: 12px;
+  color: white;
+  border:  solid  orangered;
+  font-weight: 700;
+  
+}
+
+.menu_flot li:hover{
+  background-color: orangered;
+  border: solid white;
+  transition: 0.5s;
+}
+
+.menu_flot ul{
+  margin: 0px 0px;
+  padding: 0px 0px;
+  width: auto;
+  height: auto;
+  background-color: white;
+  border: 2px solid orangered;
+  border-radius: 10px;
+  align-items: center;
+  
+  
+  
+}
+
+.menu_flot{
+  position: fixed;
+  top: -1000px;
+}
+
+.menu_css_{
+  position: fixed;
+  top: 13vh;
+  transition: 0.9s;
+}
+
+.search_{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 103vw;
+  height: 100vh;
+  z-index: 600044;
+  position: fixed;
+  top: 0;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXrc3BnlSguv6DW4Skk5fpb8YfVvH6rgX8hg&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  
+  display: none;
+}
+
+.search_ input{
+  background-color: rgba(0,0,0,0.3);
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  position: fixed;
+  top: 50%;
+  margin: 40px;
+}
+
+.search_ img{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  
+  
+}
+
+.gvv{
+  display: block;
+}
+.mnbg{
+  box-shadow: -0px -0px 5px 0px black;
+}
+
+/* popular dis */
+
+.popular_box{
+  width: 101vw;
+  position: relative;
+  top: 800px;
+  background-color: rgba(0,0,0,0.1);
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0px; 
+  padding-bottom: 80px ; 
+  
+  
+}
+
+.box_text{
+  margin: 0px;
+  padding: 0px;
+}
+.box_text h3{color: orangered }
+
+.popular_box_card{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 12vh;
+  width: 101vw;
+  position: relative;
+  top: 40px;
+ 
+}
+
+.po_card{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  margin: 20px 5px;
+  text-align: center;
+  border: solid black;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+
+
+.po_card  button{
+  padding: 10px 20px;
+  background-color: orangered;
+  border-radius: 5px;
+  font-weight: 600;
+  font-style: 70px;
+  color: white;
+}
+
+ #_1_{
+  position: relative;
+  left: -800px;
+}
+
+#_2_{
+  position: relative;
+  top: -8px;
+  left: 800px;
+ 
+}
+
+.po_card:hover #_1_{
+  position: relative;
+  left: -100px;
+  transition: 0.9s;
+}
+
+.po_card:hover #_2_{
+  position: relative;
+  top: -8px;
+  left: 100px;
+  transition: 0.9s;
+}
+
+
+
+.po_card  h2{
+  margin: 5px auto;
+ 
+}
+
+
+
+.why_choose_box_card{
+  position: relative;
+  top: 800px;
+  text-align: center;
+  padding-bottom: 200px; 
+}
+
+.why_box_tex_bt_card button{
+  border: 1px solid black;
+  font-size: 17px;
+  padding:15px 20px;
+  margin: 10px;
+  border-radius: 3px;
+  font-weight: 400;
+  background-color: rgba(0,0,0,0.1)
+  
+}
+
+ .btn{
+  background-color: darkblue;
+  font-size: 20px;
+  padding:12px 27px;
+  margin: 15px 20px;
+  float: left;
+  border-radius: 6px;
+  color: white;
+ 
+  
+}
+
+
+
+
+.Our_Menu{
+  background-color: rgba(0,0,0,0.1);
+  position: relative;
+  top: 750px;
+ /* text-align: center;*/
+  padding: 20px 0px;
+  width: 101vw;
+  
+  
+}
+
+.Our_Menu_text {
+  text-align: center;
+}
+
+.Our_Menu_text h1{
+  font-size: 30px;
+ 
+  
+}
+
+.Our_Menu_card{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.O_M_card{
+  width: 300px;
+  height: 380px;
+  background-color: white;
+  margin: 2px 5px;
+  border: solid black;
+  padding: 1px;
+  border-radius: 5px;
+  overflow: hidden;
+  
+  }
+
+.O_M_card button{
+  padding: 10px 20px;
+  background-color: orangered;
+  border-radius: 5px;
+  font-weight: 600;
+  font-style: 70px;
+  color: white;
+  margin: 10px;
+}
+
+
+.O_M_card_text h2{
+  margin: 0px;
+  padding: 0px;
+  font-size: 21px;
+}
+
+.O_M_card_text p{
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+
+
+.dil_b img{
+  position: relative;
+  top: -180px;
+  right: -150px;
+  border-radius: 10px;
+}
+
+.O_M_card {
+  padding: 10px;
+  margin: 20px 10px;
+}
+
+
+/*  dile  sorry  */
+
+.c_revu{
+  position: relative;
+  top: 800px;
+ /* display: flex;
+  justify-content: center;*/
+  
+}
+
+.c_revu_text h2{
+  font-size: 20px;
+ text-align: center;
+}
+.c_revu_text {
+  text-align: center;
+}
+
+.box_s_c_revu{display: flex;overflow-x: auto; 
+  
+  
+}
+.box_s_c_revu div{
+  width: 250px;
+  height: 200px;
+  background-color: red;
+  margin: 10px;
+}
+
+/*  dile  sorry */
+
+
+
+.Order_text{
+ /* position: relative;
+  top: 800px;*/
+  text-align: center;
+}
+
+.Order{
+  position: relative;
+  top: 800px;
+  width: 101vw;
+  /*text-align: center;*/
+  background-color: rgba(0,0,0,0.1);
+  box-shadow: -0px -0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.box_inpot{
+  margin: 30px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: -0px -0px 5px 0px black;
+  border-radius: 6px;
+  padding-bottom: 20px;
+  
+}
+
+.box_inpot input{
+  background-color: rgba(0,0,0,0.1);
+  padding:10px;
+  width: auto;
+  font-size: 20px;
+  border-radius: 5px;
+  border: solid transparent;
+  outline: none;
+}
+
+
+.abut{
+  position: relative;
+  top: 800px;
+  padding: 15px;
+}
+
+.abut h1{
+  font-size: 35px;
+}
+
+
+
+
+.button{
+  padding: 10px 20px;
+background-color: orangered;
+border-radius: 5px;
+font-weight: 600;
+font-style: 70px;
+color: white;
+font-size: 20px;
+margin: 10px;
+  
+}
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides_2 {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through 
+*/
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+/*   🙂  */
+
+
+/* Slideshow container */
+.slideshow__container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides__ {
+  display: none;
+}
+
+.mySlides__ img{
+  width: 200px;
+  height: 200px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade__ {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+.mySlides_2{
+  background-color: red;
+ 
+}
+/*
+.mySlides_2 img{
+  width: 100px;
+}*/
+
+.mySlides_2_top_box{
+  display: flex;
+}
+
+
+.mySlides_2_top_box img{
+  width: 60px;
+  height: auto;
+  display: flex;
+}
+
+.box_my{
+  width: 30px;
+  height: auto;
+}
+
+
+
+
